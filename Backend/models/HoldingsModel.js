@@ -3,4 +3,4 @@ const { HoldingsSchema } = require("../schemas/HoldingsSchema");
 
 const HoldingsModel = mongoose.model("Holdings", HoldingsSchema);
 
-module.exports = { HoldingsModel };
+module.exports = HoldingsModel;
